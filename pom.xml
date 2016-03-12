@@ -11,7 +11,7 @@
         <org.springframework-version>4.2.5.RELEASE</org.springframework-version>
         <org.aspectj-version>1.8.8</org.aspectj-version>
         <org.slf4j-version>1.7.18</org.slf4j-version>
-        <spring.security.version>4.0.4.RELEASE</spring.security.version>
+        <spring.security.version>3.2.8.RELEASE</spring.security.version>
         <mitreid-connect-version>1.2.6-SNAPSHOT</mitreid-connect-version>
     </properties>
     <dependencies>
@@ -137,7 +137,7 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
-            <version>4.0.4.RELEASE</version>
+            <version>${spring.security.version}</version>
         </dependency>
     </dependencies>
     <build>
